@@ -17,6 +17,7 @@
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
             android:src="@drawable/quotefancy_1"
+            android:importantForAccessibility="no"
             >
         </ImageView>
 

@@ -14,7 +14,7 @@ class QuoteAdapter(
 ) : RecyclerView.Adapter<QuoteAdapter.QuoteViewHolder>() {
 
     class QuoteViewHolder(
-        private val binding: QuoteListBinding
+        binding: QuoteListBinding
         ) : RecyclerView.ViewHolder(binding.root) {
 
         val imageView: ImageView = binding.imageQuote
